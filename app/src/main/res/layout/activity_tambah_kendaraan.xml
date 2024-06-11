@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahKendaraan"
+    android:background="@drawable/bg_serv">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Motor"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="23dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="125dp"/>
+
+    <ImageView
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan Kendaraan"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="150dp"/>
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="185dp"
+        android:layout_height="195dp"
+        app:srcCompat="@drawable/ket_motor"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohon isi kelengkapan motor kamu di bawah ini"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#4F4E51"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Wajib Diisi"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#BFBFBF"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*5 Digit Terakhir No Rangka"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#BFBFBF"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="415dp"
+        android:hint="(Contoh : B123J)"
+        android:minHeight="48dp"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/questionmark"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="350dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Polisi (Opsional)"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#BFBFBF"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="475dp"
+        android:hint="(Contoh : BQERWRW)"
+        android:minHeight="48dp"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masa Berlaku STNK (Opsional)"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#BFBFBF"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="535dp"
+        android:hint="(Contoh : 11-12-2005)"
+        android:minHeight="48dp"
+        android:textSize="15dp" />
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/questionmark"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="350dp"/>
+    <Button
+        android:id="@+id/addMotorLanjut"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="730dp"
+        android:backgroundTint="#576CBC"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="LANJUT"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</RelativeLayout>

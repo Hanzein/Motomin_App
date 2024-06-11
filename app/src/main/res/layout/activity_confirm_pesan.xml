@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmPesan"
+    android:background="@drawable/bg_serv">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Servis"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_semibold"/>
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi Pesanan"
+        android:textColor="#4F4E51"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="16dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Kendaraan"
+        android:textColor="#4F4E51"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="16dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail_motor"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Pemesanan"
+        android:textColor="#4F4E51"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="16dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail_pesan"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluhan : -"
+        android:textColor="#968C8C"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="725dp">
+
+        <Button
+            android:id="@+id/SuksesBook"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:text="LANJUT"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#576CBC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Estimasi Harga \n Rp 154.000"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="#4F4E51"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

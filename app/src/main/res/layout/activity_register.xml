@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@drawable/bg_serv">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Daftar"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Masukkan Data Diri Anda"
+        android:textColor="#4F4E51"
+        android:textSize="18dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Nama Lengkap"
+        android:layout_marginTop="150dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Nomor Handphone"
+        android:layout_marginTop="230dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Email (Tidak Wajib di isi)"
+        android:layout_marginTop="310dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Password"
+        android:layout_marginTop="390dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Konfirmasi Paswword"
+        android:layout_marginTop="470dp"/>
+
+    <Button
+        android:id="@+id/successRegis"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#576CBC"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="LANJUT"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_check_box_outline_blank_24"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saya setuju dengan syarat dan
+ketentuan yang berlaku."
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"/>
+
+
+
+
+
+</RelativeLayout>

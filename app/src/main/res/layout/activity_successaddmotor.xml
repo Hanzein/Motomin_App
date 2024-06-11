@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".successaddmotor"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="730dp">
+
+        <Button
+            android:id="@+id/nextHome"
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#576CBC"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="SELESAI"
+            android:textColor="#FFFFFF" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="329dp"
+        android:layout_height="301dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/duit_icon1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Motor Berhasil Ditambahkan"
+        android:textSize="23dp"
+        android:translationY="-30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Beat Sporty CW"
+        android:textColor="#968C8C"
+        android:textSize="20dp"
+        android:translationY="-30dp" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="184dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="415dp"
+        android:src="@drawable/beat_icon"
+        android:translationY="-30dp" />
+
+</RelativeLayout>

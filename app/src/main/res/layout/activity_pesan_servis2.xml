@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PesanServis2"
+    android:background="@drawable/bg_serv">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Servis"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_semibold"/>
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Servis Reguler"
+        android:textColor="#4F4E51"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Silahkan pilih servis utama yang perlu dilakukan untuk menjaga performa terbaik motormu.  "
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/servis1"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="20dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/servis2"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="20dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/servis3"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="20dp"
+                />
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="730dp">
+
+        <Button
+            android:id="@+id/lanjutDetail"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:text="LANJUT"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#576CBC"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Estimasi Harga \n Rp 154.000"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="#4F4E51"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
